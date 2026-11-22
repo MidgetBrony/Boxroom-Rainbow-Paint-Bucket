@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "rainbow-paint-bucket",
+  "name": "Rainbow Paint Bucket",
+  "version": "0.1.11",
+  "author": "MidgetBrony",
+  "description": "Paint BOXROOM walls, ceilings, floors and furniture with any #hex color. Includes named persistent favorite colors.",
+  "repository": "https://github.com/MidgetBrony/Boxroom-Rainbow-Paint-Bucket",
+  "requirements": {
+    "melonLoader": "0.7.0"
+  },
+  "dependencies": [
+    {
+      "manifest": "https://raw.githubusercontent.com/MidgetBrony/ModsPanel/master/manifest.json",
+      "minimumVersion": "2.7.8",
+      "required": true
+    }
+  ],
+  "release": {
+    "provider": "github",
+    "asset": "Rainbow-Paint-Bucket-*.zip",
+    "checksumAsset": "SHA256SUMS.txt",
+    "destination": "Mods"
+  }
+}
+
